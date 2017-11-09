@@ -14,12 +14,12 @@ module.exports = {
   // API Keys: https://dashboard.stripe.com/account/apikeys
   // Connect Settings: https://dashboard.stripe.com/account/applications/settings
   stripe: {
-    secretKey: 'YOUR_STRIPE_SECRET_KEY',
-    publishableKey: 'YOUR_STRIPE_PUBLISHABLE_KEY',
-    clientId: 'YOUR_STRIPE_CLIENT_ID',
+    secretKey: 'sk_test_gK6M9YbrDqSPlo0hjvxANRnj',
+    publishableKey: 'pk_test_nVCvT1pKmuYT69qocABQGz2J',
+    clientId: 'ca_BjFgqsEqm316cmvoMLZWeHbGefFhGy9J',
     authorizeUri: 'https://connect.stripe.com/express/oauth/authorize',
     tokenUri: 'https://connect.stripe.com/oauth/token'
-  },
+  }
 
   // Configuration for MongoDB.
   mongo: {
