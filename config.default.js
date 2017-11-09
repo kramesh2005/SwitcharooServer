@@ -10,7 +10,7 @@ module.exports = {
   // Secret for cookie sessions.
   secret: 'YOUR_SECRET',
 
-  // Configuration for Stripe.
+  // Configuration for Stripe…
   // API Keys: https://dashboard.stripe.com/account/apikeys
   // Connect Settings: https://dashboard.stripe.com/account/applications/settings
   stripe: {
